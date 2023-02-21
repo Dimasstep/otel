@@ -5,7 +5,8 @@
 
 @import url(/fonts.css);
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -15,13 +16,14 @@ html, body {
     width: 4%;
     height: 65%;
     position: relative;
-   
+
 }
 
-.logo > img {
+.logo>img {
     width: 100%;
     height: 100%;
 }
+
 header {
     width: 100%;
     height: 10%;
@@ -37,9 +39,9 @@ header {
     height: 80%;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 
-   
+
 }
 
 nav {
@@ -48,7 +50,7 @@ nav {
 
 }
 
-.header__menu{
+.header__menu {
     display: flex;
     list-style: none;
     width: 100%;
@@ -61,6 +63,7 @@ nav {
     font-family: 'DIN-Light';
 
 }
+
 .langvich {
     background-image: url(img/united-kingdom.png);
     background-position: center;
@@ -81,20 +84,22 @@ nav {
     align-items: center;
     justify-content: center;
 }
-.book__btm > a {
+
+.book__btm>a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-family: 'DIN-Light';
-   
-   
+
+
 }
 
 main {
     width: 100%;
     height: auto;
 }
-.main__intro{
+
+.main__intro {
     width: 100%;
     height: 85vh;
     background-color: #7054e2;
@@ -103,23 +108,24 @@ main {
     background-repeat: no-repeat;
     background-position: center;
 }
-.intro__inner{
-    background-color: rgba(0,0,0,.35);
-    width:100%;
+
+.intro__inner {
+    background-color: rgba(0, 0, 0, .35);
+    width: 100%;
     height: 100%;
-    color:#fff;
+    color: #fff;
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items: flex-end;
     box-sizing: border-box;
     padding: 5em 5em;
     position: relative;
-    
+
 }
 
 
-.intro__heading{
-    font-family:'Open Sans',sans-serif;
+.intro__heading {
+    font-family: 'Open Sans', sans-serif;
     font-size: 70px;
     margin: 0;
     font-weight: 300;
@@ -132,8 +138,9 @@ main {
     text-align: center;
 
 }
-.arrow__placeholder{
-   position: absolute;
+
+.arrow__placeholder {
+    position: absolute;
     top: 90%;
     right: 48%;
     width: 5%;
@@ -143,6 +150,66 @@ main {
 
 }
 
-.left__arrow{
+.left__arrow {
     transform: rotate(-360deg);
+}
+
+.main__cabins {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.cabins__upper {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.cabins__upper__paragraf {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5em;
+
+}
+
+.cabins__upper__paragraf>h2 {
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.cabins__upper__paragraf>p {
+    font-size: 30px;
+    font-weight: 300;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.cabins__upper__paragraf>a {
+
+    font-size: 30px;
+    font-weight: 600;
+    color:black;
+
+
+}
+
+.cabins__upper__img {
+    width: 50%;
+    height: 100%;
+    background-image: url(img/block2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: r;
+
 }
