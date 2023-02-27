@@ -1,21 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-@import url(/fonts.css);
-
-html,
-body {
-
-   
+html, body {
     width: 1408px;
     height: 4220px;
-    background: #FFFFFF;
-    /* height: 100%;
-    width: 100%;
-    margin: 0; */
-    padding: auto;
+    background: rgb(255, 255, 255);
     margin: auto;
 }
 
@@ -23,10 +14,9 @@ body {
     width: 4%;
     height: 65%;
     position: relative;
-
 }
 
-.logo>img {
+.logo > img {
     width: 100%;
     height: 100%;
 }
@@ -37,8 +27,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* position: fixed; */
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 .header__inner {
@@ -47,15 +36,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 nav {
     width: 55%;
     height: 100%;
     text-transform: uppercase;
-
 }
 
 .header__menu {
@@ -66,19 +52,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
-    margin: 0;
-    padding: 0;
-    font-family: 'DIN-Light';
-
+    margin: 0px;
+    padding: 0px;
+    font-family: DIN-Light;
 }
 
 .language {
-    background-image: url(img/united-kingdom.png);
-    background-position: center;
     width: 25px;
     height: 25px;
-    background: no-repeat;
-    background-size: contain;
+    background: 0% 0% / contain no-repeat;
     display: block;
 }
 
@@ -87,19 +69,17 @@ nav {
     right: 2.5%;
     width: 15%;
     height: 65%;
-    background-color: #5b6460;
+    background-color: rgb(91, 100, 96);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.book__btm>a {
+.book__btm > a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'DIN-Light';
-
-
+    font-family: DIN-Light;
 }
 
 main {
@@ -110,41 +90,37 @@ main {
 .main__intro {
     width: 100%;
     height: 85vh;
-    background-color: #7054e2;
-    background-image: url(img/intro.png);
+    background-color: rgb(112, 84, 226);
+    background-image: url("img/intro.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
 }
 
 .intro__inner {
-    background-color: rgba(0, 0, 0, .35);
+    background-color: rgba(0, 0, 0, 0.35);
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     box-sizing: border-box;
-    padding: 5em 5em;
+    padding: 5em;
     position: relative;
-
 }
 
-
 .intro__heading {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 70px;
-    margin: 0;
+    margin: 0px;
     font-weight: 300;
-
 }
 
 .intro__paragraf {
-    font-family: 'Mulish', sans-serif;
+    font-family: Mulish, sans-serif;
     font-size: 20px;
     text-align: center;
-
 }
 
 .arrow__placeholder {
@@ -154,8 +130,6 @@ main {
     width: 5%;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .left__arrow {
@@ -169,21 +143,18 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .cabins__upper {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: flex-end;
-
-
 }
 
 .cabins__upper__paragraf {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     width: 60%;
     height: 100%;
     box-sizing: border-box;
@@ -193,14 +164,14 @@ main {
     justify-content: space-between;
 }
 
-.cabins__upper__paragraf>h2 {
+.cabins__upper__paragraf > h2 {
     width: 100%;
     font-size: 40px;
     font-weight: 400;
     padding: 1em;
     position: relative;
-    color: #5b6460;
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(91, 100, 96);
+    font-family: "Open Sans", sans-serif;
 }
 
 .main__forest__paragraf__block {
@@ -209,103 +180,69 @@ main {
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     justify-content: space-evenly;
     align-items: center;
     line-height: 30px;
-
 }
 
-.cabins__upper__paragraf__block>h2 {
+.cabins__upper__paragraf__block > h2 {
     width: 100%;
     font-size: 40px;
     font-weight: 400;
     padding: 1em;
     position: relative;
-    color: #5b6460;
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(91, 100, 96);
+    font-family: "Open Sans", sans-serif;
 }
 
-/* .main__forest__paragraf__block>h2 {
-    width: 100%;
-    font-size: 40px;
-    font-weight: 400;
-    padding: 1em;
-    color: #5b6460;
-    font-family: 'Open Sans', sans-serif;
-
-} */
-
-
-/* .main__forest__paragraf__block>p {
+.cabins__upper__paragraf > p {
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    line-height: 30px;
-    color: black;
-
-
-} */
-
-.cabins__upper__paragraf>p {
-    font-size: 16px;
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #000000;
+    color: rgb(0, 0, 0);
     line-height: 30px;
 }
 
-.cabins__upper__paragraf>a {
+.cabins__upper__paragraf > a {
     font-size: 16px;
     font-weight: 600;
-    color: #5b6460;
+    color: rgb(91, 100, 96);
     text-decoration: none;
     line-height: 30px;
-
-
 }
 
 span {
-    border-bottom: 2px solid #5b6460;
-
+    border-bottom: 2px solid rgb(91, 100, 96);
 }
 
-.main__forest__paragraf__block>a {
+.main__forest__paragraf__block > a {
     font-size: 30px;
     font-weight: 600;
-    color: #5b6460;
+    color: rgb(91, 100, 96);
     text-decoration: none;
 }
 
-.cabins__upper__paragraf__block>a {
+.cabins__upper__paragraf__block > a {
     font-size: 16px;
     font-weight: 600;
-    color: #5b6460;
+    color: rgb(91, 100, 96);
     text-decoration: none;
     line-height: 30px;
-
 }
-
-
-
 
 .cabins__upper__img {
     width: 45%;
     height: 100%;
-    background-image: url(img/block2.png);
+    background-image: url("img/block2.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
-
 }
 
 .cabins__lower {
@@ -316,72 +253,63 @@ span {
     align-items: center;
 }
 
-.cabins__lower>img {
+.cabins__lower > img {
     width: 32%;
     height: 92%;
 }
 
 .main__forest {
-
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     width: 100%;
-    height: 80vh;
+    height: 65vh;
     display: flex;
     justify-content: flex-end;
-    background-color: #E9ECE0;
-
-
+    background-color: rgb(233, 236, 224);
 }
 
 .cabins__upper__paragraf_block {
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     padding: 4em;
     font-style: normal;
     font-weight: 300;
     line-height: 30px;
-    color: #333333;
-
-
-
+    color: rgb(51, 51, 51);
 }
 
-.cabins__upper__paragraf_block>h2 {
+.cabins__upper__paragraf_block > h2 {
     width: 100%;
     font-size: 40px;
     font-weight: 400;
     padding: 1em;
     position: relative;
-    color: #5b6460;
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(91, 100, 96);
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     line-height: 40px;
-
 }
 
 .main__forest__img {
     width: 50%;
     height: 100%;
-    background-image: url(img/Forest.png);
+    background-image: url("img/Forest.png");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
 }
 
 .forest__img__inner {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: rgba(0, 0, 0, .15);
+    background-color: rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.forest__img__inner>div {
+.forest__img__inner > div {
     height: 33%;
     width: 25%;
     background-color: rgba(255, 255, 255, 0.3);
@@ -394,7 +322,7 @@ span {
     border-radius: 50%;
 }
 
-.forest__img__inner>div>div {
+.forest__img__inner > div > div {
     height: 75%;
     width: 75%;
     background-color: rgba(251, 250, 250, 0.3);
@@ -405,23 +333,22 @@ span {
     border-radius: 50%;
 }
 
-
-.forest__img__inner>div>div>div {
+.forest__img__inner > div > div > div {
     height: 70%;
     width: 70%;
-    background-color: rgba(251, 250, 250, 1);
+    background-color: rgb(251, 250, 250);
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
     border-radius: 50%;
     font-size: 14px;
-    font-family: 'DIN-Light';
+    font-family: DIN-Light;
     text-align: center;
 }
 
 .main__forest__paragraf__block {
-    font-family: 'DIN-Light';
+    font-family: DIN-Light;
     width: 50%;
     height: 60%;
     box-sizing: border-box;
@@ -431,11 +358,10 @@ span {
     justify-content: space-between;
 }
 
-
 .main__facilities {
     width: 100%;
     height: 50vh;
-    background: rgba(91, 100, 96, 1);
+    background: rgb(91, 100, 96);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -443,10 +369,10 @@ span {
     line-height: 50px;
 }
 
-.main__facilities>h2 {
-    color: #fff;
+.main__facilities > h2 {
+    color: rgb(255, 255, 255);
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 40px;
 }
 
@@ -456,17 +382,16 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
-.main__facilities__inner>div {
+.main__facilities__inner > div {
     width: 20%;
     height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
 }
 
@@ -475,22 +400,19 @@ span {
     height: 60vh;
     display: flex;
     position: relative;
-
 }
 
-.about__us__left,
-.about__us__right {
+.about__us__left, .about__us__right {
     width: 50%;
     height: 100%;
-    background-image: url(img/about1.png);
-    background-position: center;
+    background-image: url("img/about1.png");
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .about__us__right {
-    background-image: url(img/about2.png);
-
+    background-image: url("img/about2.png");
 }
 
 .more__about__us {
@@ -498,24 +420,22 @@ span {
     width: 10%;
     height: 30%;
     border-radius: 100%;
-    background-color: #E9ECE0;
+    background-color: rgb(233, 236, 224);
     display: flex;
     align-items: center;
     justify-content: center;
-    top: calc(50% - 15%);
-    left: calc(50% - 4.65%);
+    top: calc(35%);
+    left: calc(45.35%);
 }
 
 footer {
     width: 100%;
     height: 100vh;
-    background-color: #696e6b;
+    background-color: rgb(105, 110, 107);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .footer__inner__top {
@@ -524,33 +444,30 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
-.footer__inner__top>p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.footer__inner__top > p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
 
-.footer__inner__top>ul {
+.footer__inner__top > ul {
     list-style: none;
     width: 35%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
-.footer__inner__top>ul>li>a {
+.footer__inner__top > ul > li > a {
     color: white;
     text-decoration: none;
     font-size: 14px;
-    font-family: 'DIN-Light';
+    font-family: DIN-Light;
     font-weight: 100;
 }
-
 
 .footer__inner_center {
     width: 80%;
@@ -564,52 +481,47 @@ footer {
 .footer__inner__form {
     width: 30%;
     height: 70%;
-
-
 }
 
-.footer__inner__form>form {
+.footer__inner__form > form {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.footer__inner__form>form>input[type="text"] {
+.footer__inner__form > form > input[type="text"] {
     border: none;
     outline: none;
     background-color: transparent;
     font-size: 16px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: italic;
     font-weight: 100;
     box-sizing: border-box;
-    padding-left: .5em;
-
+    padding-left: 0.5em;
 }
 
-.footer__inner__form>form>input[type="text"]::placeholder {
+.footer__inner__form > form > input[type="text"]::placeholder {
     font-size: 16px;
     color: white;
     box-sizing: border-box;
-    padding-left: .1em;
+    padding-left: 0.1em;
 }
 
-.footer__inner__form>form>input[type="button"] {
+.footer__inner__form > form > input[type="button"] {
     border: none;
     outline: none;
     background-color: transparent;
     font-size: 25px;
-
 }
 
-.footer__inner__form>p {
-    font-family: 'Open Sans', sans-serif;
+.footer__inner__form > p {
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
-
 
 .footer__list__pay {
     width: 25%;
@@ -619,7 +531,6 @@ footer {
     justify-content: center;
     list-style: none;
     align-self: self-start;
-
 }
 
 .footer__inner__bottom {
@@ -627,8 +538,8 @@ footer {
     height: 30%;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 100;
 }
