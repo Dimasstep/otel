@@ -8,10 +8,15 @@
 html,
 body {
 
-    
-    height: 100%;
+   
+    width: 1408px;
+    height: 4220px;
+    background: #FFFFFF;
+    /* height: 100%;
     width: 100%;
-    margin: 0;
+    margin: 0; */
+    padding: auto;
+    margin: auto;
 }
 
 .logo {
@@ -28,7 +33,7 @@ body {
 
 header {
     width: 100%;
-    height: 10%;
+    height: 2%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -47,7 +52,7 @@ header {
 }
 
 nav {
-    width: 35%;
+    width: 55%;
     height: 100%;
     text-transform: uppercase;
 
@@ -56,7 +61,7 @@ nav {
 .header__menu {
     display: flex;
     list-style: none;
-    width: 100%;
+    width: 85%;
     height: 100%;
     justify-content: space-between;
     align-items: center;
