@@ -3,7 +3,8 @@
     padding: 0px;
 }
 
-html, body {
+html,
+body {
     width: 1408px;
     height: 4220px;
     background: rgb(255, 255, 255);
@@ -16,7 +17,7 @@ html, body {
     position: relative;
 }
 
-.logo > img {
+.logo>img {
     width: 100%;
     height: 100%;
 }
@@ -42,6 +43,14 @@ nav {
     width: 55%;
     height: 100%;
     text-transform: uppercase;
+    padding-left: 8%;
+    
+}
+
+li:hover {
+   
+    border-bottom: 2px solid rgb(91, 100, 96);
+    
 }
 
 .header__menu {
@@ -54,7 +63,7 @@ nav {
     font-size: 18px;
     margin: 0px;
     padding: 0px;
-    font-family: DIN-Light;
+    font-family: 'DIN-Light';
 }
 
 .language {
@@ -75,22 +84,21 @@ nav {
     justify-content: center;
 }
 
-.book__btm > a {
+.book__btm>a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-family: DIN-Light;
 }
 
-main {
+/* main {
     width: 100%;
     height: auto;
-}
+} */
 
 .main__intro {
     width: 100%;
     height: 85vh;
-    background-color: rgb(112, 84, 226);
     background-image: url("img/intro.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,16 +119,20 @@ main {
 }
 
 .intro__heading {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 70px;
     margin: 0px;
     font-weight: 300;
 }
 
 .intro__paragraf {
-    font-family: Mulish, sans-serif;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
+    line-height: 28px;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .arrow__placeholder {
@@ -146,7 +158,7 @@ main {
 }
 
 .cabins__upper {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     height: 50%;
     display: flex;
@@ -154,7 +166,7 @@ main {
 }
 
 .cabins__upper__paragraf {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 60%;
     height: 100%;
     box-sizing: border-box;
@@ -164,14 +176,14 @@ main {
     justify-content: space-between;
 }
 
-.cabins__upper__paragraf > h2 {
+.cabins__upper__paragraf>h2 {
     width: 100%;
     font-size: 40px;
     font-weight: 400;
     padding: 1em;
     position: relative;
     color: rgb(91, 100, 96);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main__forest__paragraf__block {
@@ -180,26 +192,26 @@ main {
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     justify-content: space-evenly;
     align-items: center;
     line-height: 30px;
 }
 
-.cabins__upper__paragraf__block > h2 {
+.cabins__upper__paragraf__block>h2 {
     width: 100%;
     font-size: 40px;
     font-weight: 400;
     padding: 1em;
     position: relative;
     color: rgb(91, 100, 96);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.cabins__upper__paragraf > p {
+.cabins__upper__paragraf>p {
     font-size: 16px;
     font-weight: 300;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     width: 90%;
     display: flex;
@@ -209,7 +221,7 @@ main {
     line-height: 30px;
 }
 
-.cabins__upper__paragraf > a {
+.cabins__upper__paragraf>a {
     font-size: 16px;
     font-weight: 600;
     color: rgb(91, 100, 96);
@@ -221,14 +233,14 @@ span {
     border-bottom: 2px solid rgb(91, 100, 96);
 }
 
-.main__forest__paragraf__block > a {
+.main__forest__paragraf__block>a {
     font-size: 30px;
     font-weight: 600;
     color: rgb(91, 100, 96);
     text-decoration: none;
 }
 
-.cabins__upper__paragraf__block > a {
+.cabins__upper__paragraf__block>a {
     font-size: 16px;
     font-weight: 600;
     color: rgb(91, 100, 96);
@@ -253,13 +265,13 @@ span {
     align-items: center;
 }
 
-.cabins__lower > img {
+.cabins__lower>img {
     width: 32%;
     height: 92%;
 }
 
 .main__forest {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     height: 65vh;
     display: flex;
@@ -267,28 +279,42 @@ span {
     background-color: rgb(233, 236, 224);
 }
 
-.cabins__upper__paragraf_block {
+.cabins__upper__paragraf__block {
     height: 100%;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    padding: 4em;
+    padding: 1em;
     font-style: normal;
     font-weight: 300;
-    line-height: 30px;
+    
     color: rgb(51, 51, 51);
 }
 
-.cabins__upper__paragraf_block > h2 {
+.cabins__upper__paragraf__block>h2 {
     width: 100%;
     font-size: 40px;
     font-weight: 400;
     padding: 1em;
     position: relative;
     color: rgb(91, 100, 96);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    line-height: 40px;
+    
 }
+
+.cabins__upper__paragraf__block> p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+}
+
 
 .main__forest__img {
     width: 50%;
@@ -307,10 +333,12 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
-.forest__img__inner > div {
-    height: 33%;
+    
+.forest__img__inner>div {
+    height: 31%;
     width: 25%;
     background-color: rgba(255, 255, 255, 0.3);
     display: flex;
@@ -319,36 +347,47 @@ span {
     justify-content: center;
     bottom: 1em;
     right: 3em;
-    border-radius: 50%;
+    border-radius: 100%;
+    animation: scaling  1905ms ease-in;
+ 
 }
 
-.forest__img__inner > div > div {
-    height: 75%;
+@keyframes scaling {
+    
+    from{
+        transform: scale(0.9);
+    }
+    
+}
+
+
+.forest__img__inner>div>div {
+    height: 73%;
     width: 75%;
     background-color: rgba(251, 250, 250, 0.3);
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
-.forest__img__inner > div > div > div {
-    height: 70%;
+.forest__img__inner>div>div>div {
+    height: 68%;
     width: 70%;
     background-color: rgb(251, 250, 250);
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 100%;
     font-size: 14px;
-    font-family: DIN-Light;
+    font-family: 'DIN-Light';
     text-align: center;
 }
 
 .main__forest__paragraf__block {
-    font-family: DIN-Light;
+    font-family: 'DIN-Light';
     width: 50%;
     height: 60%;
     box-sizing: border-box;
@@ -369,10 +408,10 @@ span {
     line-height: 50px;
 }
 
-.main__facilities > h2 {
+.main__facilities>h2 {
     color: rgb(255, 255, 255);
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
 }
 
@@ -384,14 +423,14 @@ span {
     justify-content: space-between;
 }
 
-.main__facilities__inner > div {
+.main__facilities__inner>div {
     width: 20%;
     height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: rgb(255, 255, 255);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -402,7 +441,8 @@ span {
     position: relative;
 }
 
-.about__us__left, .about__us__right {
+.about__us__left,
+.about__us__right {
     width: 50%;
     height: 100%;
     background-image: url("img/about1.png");
@@ -418,7 +458,7 @@ span {
 .more__about__us {
     position: absolute;
     width: 10%;
-    height: 30%;
+    height: 26%;
     border-radius: 100%;
     background-color: rgb(233, 236, 224);
     display: flex;
@@ -445,27 +485,31 @@ footer {
     justify-content: space-between;
     align-items: center;
     color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-.footer__inner__top > p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.footer__inner__top>p {
+    
     font-size: 16px;
     font-weight: 600;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.footer__inner__top > ul {
+.footer__inner__top>ul {
     list-style: none;
-    width: 35%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer__inner__top > ul > li > a {
+.footer__inner__top>ul>li>a {
     color: white;
     text-decoration: none;
     font-size: 14px;
-    font-family: DIN-Light;
+    font-family: 'DIN-Light';
     font-weight: 100;
 }
 
@@ -483,44 +527,47 @@ footer {
     height: 70%;
 }
 
-.footer__inner__form > form {
+.footer__inner__form>form {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.footer__inner__form > form > input[type="text"] {
+.footer__inner__form>form>input[type="text"] {
     border: none;
     outline: none;
     background-color: transparent;
     font-size: 16px;
     color: white;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-weight: 100;
     box-sizing: border-box;
     padding-left: 0.5em;
 }
 
-.footer__inner__form > form > input[type="text"]::placeholder {
+.footer__inner__form>form>input[type="text"]::placeholder {
     font-size: 16px;
     color: white;
     box-sizing: border-box;
     padding-left: 0.1em;
 }
 
-.footer__inner__form > form > input[type="button"] {
+.footer__inner__form>form>input[type="button"] {
     border: none;
     outline: none;
+    padding-left: 35%;
     background-color: transparent;
     font-size: 25px;
+    color: #fff;
 }
 
-.footer__inner__form > p {
-    font-family: "Open Sans", sans-serif;
+.footer__inner__form>p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 30px;
 }
 
 .footer__list__pay {
@@ -531,6 +578,7 @@ footer {
     justify-content: center;
     list-style: none;
     align-self: self-start;
+    justify-content: space-between;
 }
 
 .footer__inner__bottom {
@@ -540,6 +588,6 @@ footer {
     align-items: center;
     color: rgb(255, 255, 255);
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
 }
