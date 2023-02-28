@@ -44,13 +44,13 @@ nav {
     height: 100%;
     text-transform: uppercase;
     padding-left: 8%;
-    
+
 }
 
 li:hover {
-   
+
     border-bottom: 2px solid rgb(91, 100, 96);
-    
+
 }
 
 .header__menu {
@@ -286,7 +286,7 @@ span {
     padding: 1em;
     font-style: normal;
     font-weight: 300;
-    
+
     color: rgb(51, 51, 51);
 }
 
@@ -299,10 +299,10 @@ span {
     color: rgb(91, 100, 96);
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    
+
 }
 
-.cabins__upper__paragraf__block> p{
+.cabins__upper__paragraf__block>p {
     font-size: 16px;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
@@ -333,10 +333,10 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
-    
+
 .forest__img__inner>div {
     height: 31%;
     width: 25%;
@@ -348,16 +348,16 @@ span {
     bottom: 1em;
     right: 3em;
     border-radius: 100%;
-    animation: scaling  1905ms ease-in;
- 
+    animation: scaling 1905ms ease-in;
+
 }
 
 @keyframes scaling {
-    
-    from{
+
+    from {
         transform: scale(0.9);
     }
-    
+
 }
 
 
@@ -490,7 +490,7 @@ footer {
 }
 
 .footer__inner__top>p {
-    
+
     font-size: 16px;
     font-weight: 600;
     line-height: 30px;
